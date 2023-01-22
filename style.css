@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+form {
+    padding-top: 10px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #373644;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+    margin-bottom: 10px;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+    margin-bottom: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#button1 {
+    background-color: #4CAF50;
+    color: #fff;
+    width: 50%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+#button1:hover {
+    background-color: #3e8e41;
+}
+
+#button2 {
+    background-color: #788178;
+    color: #fff;
+    width: 50%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    transition: 0.3s;
+    
+}
+
+#button2:hover {
+    background-color: #3e8e41;
+}
+
+.name {
+    width: 50%;
+    float: left;
+}
+
+.firstname {
+    width: 50%;
+    float: left;
+}

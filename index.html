@@ -1,0 +1,61 @@
+<!-- - Concevoir et styliser un formulaire :
+
+  1. - Créer un fichier html qui contiendra votre formulaire (pas besoin de faire une mise en page type: header.. main.. footer..)
+
+  2. - Créer un fichier css dans le lequel sera contenu le style de votre formulaire, et liez-le dans votre html.
+
+  3. - Créez le formulaire envoyé en pièce jointe et rendez le le plus fidèle possible. (aucune indications techniques et stylistiques ne vous sont données, c'est pour travailler votre méthode d'analyse de style).
+
+  4. - Après avoir fait le html (uniquement le html), vous styliserez votre formulaire dans votre style.css, évidemment vous devrez uniquement utiliser des classes, avec des noms logiques (n'hésitez pas à vous renseigner sur l'utilisation de la méthode BEM (méthode de nommage de classes que nous verrons au prochain cours, donc n'hésitez pas à vous documenter)).
+
+  5. - Envoyez le lien git de votre projet en livrable.
+
+Troisième exercice :
+
+- Laissez place à votre imagination !
+
+  1. - Imaginez un style de formulaire (inscription, contact, connexion....).
+ 
+
+  1.1 - Implémentez le sur figma si vous le souhaitez pour vous donner une idée du visuel.
+
+  Contraintes techniques :
+Le formulaire doit contenir au minimum :
+- Un champ de texte
+- Un champ de mot de passe et/ou email
+- Un textarea (sauf si inscription ou connexion)
+- Une checkbox ou au moins 3 bouton radios avec des labels groupés
+- Un select avec au moins 3 options
+- Vous pouvez implémenter plus de champs, type color.. importation de fichier.. etc..
+Au moins un style personnalisé pour les champs de formulaire ainsi qu'au moins une police d'écriture personnalisée pour tout le projet.
+Vous êtes libre du style que vous lui appliquerez ainsi que la mise en page, soyez juste imaginatif et logiquement structuré ; )
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <button type="button" id="button1">S'inscrire</button>
+        <button type="button" id="button2">Se connecter</button>
+        <h1>S'inscrire gratuitement </h1>
+        <label for="name">Nom</label>
+        <input type="text" name="name" id="name">
+        <label for="firstname">Prénom</label>
+        <input type="text" name="firstname" id="firstname">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="password">Mot de passe</label>
+        <input type="password" name="password" id="password">
+        <label for="message">Message</label>
+        <button type="submit">S'inscrire</button>
+    </form>
+</body>
+</html>
